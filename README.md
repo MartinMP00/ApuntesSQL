@@ -20,4 +20,5 @@
 > - DISTINCT lo podemos usar para escoger solo una vez cada variable almacenada en un atributo de la tabla. Ej: SELECT DISTINCT (continent) nos mostraría una vez cada continente sin repetirlos. <br>
 > - GROUP BY agrupa todos los elementos de un atributo en uno.
 > - HAVING es una cláusula que podemos usar para comprobar si un atributo cumple una condición concreta. Ej: HAVING SUM(SaleAmount) > 1000
+> - La sentencia JOIN (unir, combinar) de SQL permite combinar registros de una o más tablas en una base de datos. 
 >
