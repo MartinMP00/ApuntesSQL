@@ -13,4 +13,11 @@
 > - Podemos usar ROUND para redondear el número a dos decimales. <br>
 > - Utilizamos LENGTH para obtener el número de caracteres en un string. <br>
 > - Podemos usar LEFT para dejar aislada la primera letra de un string. <br>
-> - 
+> - ORDER BY lo utilizamos para ordenar según el parámetro introducido. <br>
+> - Usamos CONCAT para unir dos valores en una única string, un uso muy frecuente es poner un número con un %. Ej: CONCAT (3, '%') <br>
+> - Para instanciar una variable/tabla con el nombre que nosotros queramos usamos AS. <br>
+> - SUM sirve para sumar todas las variables almacenadas en un atributo de la tabla. <br>
+> - DISTINCT lo podemos usar para escoger solo una vez cada variable almacenada en un atributo de la tabla. Ej: SELECT DISTINCT (continent) nos mostraría una vez cada continente sin repetirlos. <br>
+> - GROUP BY agrupa todos los elementos de un atributo en uno.
+> - HAVING es una cláusula que podemos usar para comprobar si un atributo cumple una condición concreta. Ej: HAVING SUM(SaleAmount) > 1000
+>
